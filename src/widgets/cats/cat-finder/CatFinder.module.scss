@@ -5,10 +5,14 @@
 	gap: 20px;
 
 	padding: 40px;
-	margin: 10px;
 
 	border: 2px solid var(--accent-color);
 	border-radius: 10px;
+
+	@media (max-width: 768px) {
+		padding: 20px;
+		margin: 5px;
+	}
 
 	.option {
 		display: flex;
